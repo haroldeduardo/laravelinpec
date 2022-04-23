@@ -31,3 +31,4 @@ class CreateFuncionarioTable extends Migration
         Schema::dropIfExists('funcionario');
     }
 }
+/*ggggggggg*/
