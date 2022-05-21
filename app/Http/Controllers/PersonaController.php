@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\productos_models;
 
-class ProductosController extends Controller
+class PersonaController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,10 +13,8 @@ class ProductosController extends Controller
      */
     public function index()
     {
-
-        $productos=productos_models::all(); ///se crea  la variable y se llama la
-        return $productos;
-        //
+        
+        
     }
 
     /**
